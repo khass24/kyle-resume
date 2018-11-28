@@ -29,8 +29,162 @@
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
   </head>
 
-  <body class="homepage">
-    <div id="app"></div>
+  <body>
+
+    <header class="header">
+      <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container"><a href="#intro" class="navbar-brand scrollTo">Kyle Hassett</a>
+          <button type="button" data-toggle="collapse" data-target="#navbarcollapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><span class="fa fa-bars"></span></button>
+          <div id="navbarcollapse" class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item"><a href="#intro" class="nav-link link-scroll">Intro</a></li>
+              <li class="nav-item"><a href="#about" class="nav-link link-scroll">About</a></li>
+              <li class="nav-item"><a href="#services" class="nav-link link-scroll">Services</a></li>
+              <li class="nav-item"><a href="#testimonials" class="nav-link link-scroll">Testimonials</a></li>
+              <li class="nav-item"><a href="#references" class="nav-link link-scroll">My work</a></li>
+              <li class="nav-item"><a href="#customers" class="nav-link link-scroll">Clients</a></li>
+              <li class="nav-item"><a href="#contact" class="nav-link link-scroll">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section id="intro" style="background: url(img/buddha2.jpg) center center no-repeat; background-size: cover;" class="intro-section pb-2">
+      <div class="container text-center">
+        <div data-animate="fadeInDown" class="logo"><img class="selfie" src= "img/selfie.jpg" width=300px></div>
+        <h1 data-animate="fadeInDown" class="text-shadow mb-5">Kyle Hassett</h1>
+        <p data-animate="slideInUp" class="h3 text-shadow text-400">Writer of Words and Cdode</p>
+      </div>
+    </section>
+
+    <section id="customers" class="customers-section bg-gray">
+      <div class="container">
+        <div class="col-md-12">
+          <div class="row align-items-center">
+            <div class="col-lg-2 col-md-4 col-sm-6">
+              <div class="customer"><img src="img/ruby.png" title="Ruby" data-placement="bottom" data-toggle="tooltip" alt="" class="img-fluid d-block mx-auto"></div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6">
+              <div class="customer"><img src="img/rails.png" title="Rails" data-placement="bottom" data-toggle="tooltip" alt="" class="img-fluid d-block mx-auto"></div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6">
+              <div class="customer"><img src="img/javascript.png" title="Javascript" data-placement="bottom" data-toggle="tooltip" alt="" class="img-fluid d-block mx-auto"></div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6">
+              <div class="customer"><img src="img/vue.png" title="VueJS" data-placement="bottom" data-toggle="tooltip" alt="" class="img-fluid d-block mx-auto"></div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6">
+              <div class="customer"><img src="img/html.png" title="HTML & CSS" data-placement="bottom" data-toggle="tooltip" alt="" class="img-fluid d-block mx-auto"></div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6">
+              <div class="customer"><img src="img/postgres.png" title="PostgreSQL" data-placement="bottom" data-toggle="tooltip" alt="" class="img-fluid d-block mx-auto"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about-section">
+      <div class="container">
+        <header class="text-center">
+          <h2 data-animate="fadeInDown" class="title">About me</h2>
+        </header>
+        <div class="row">
+          <div data-animate="fadeInUp" class="col-lg-6">
+            <p>An sincerity so extremity he additions. Her yet <strong>there truth merit</strong>. Mrs all projecting favourable now unpleasing. Son law garden chatty temper. Oh children provided to mr elegance marriage strongly. Off can admiration prosperous now devonshire diminution law.</p>
+            <p>Received overcame oh sensible so at an. Formed do change merely to county it. <strong>Am separate contempt</strong> domestic to to oh. On relation my so addition branched. Put hearing cottage she norland letters equally prepare too. Replied exposed savings he no viewing as up. Soon body add him hill. No father living really people estate if. Mistake do produce beloved demesne if am pursuit.</p>
+            <p>An sincerity so extremity he additions. Her yet <strong>there truth merit</strong>. Mrs all projecting favourable now unpleasing. Son law garden chatty temper. Oh children provided to mr elegance marriage strongly. Off can admiration prosperous now devonshire diminution law.</p>
+          </div>
+          <div data-animate="fadeInUp" class="col-lg-6">
+            <div class="skill-item">
+              <div class="progress-title">PHP</div>
+              <div class="progress">
+                <div role="progressbar" style="width: 60%" aria-valuenow="0" aria-valuemin="60" aria-valuemax="100" class="progress-bar progress-bar-skill1"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="progress-title">Javascript</div>
+              <div class="progress">
+                <div role="progressbar" style="width: 70%" aria-valuenow="90" aria-valuemin="90" aria-valuemax="100" class="progress-bar progress-bar-skill2"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="progress-title">HTML coding</div>
+              <div class="progress">
+                <div role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-skill3"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="progress-title">SEO</div>
+              <div class="progress">
+                <div role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-skill4"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="progress-title">SEM</div>
+              <div class="progress">
+                <div role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-skill5"></div>
+              </div>
+            </div>
+          </div>
+          <div data-animate="fadeInUp" class="col-sm-6 mx-auto mt-5"><img src="img/about.jpg" alt="This is me - IT worker" class="image rounded-circle img-fluid"></div>
+        </div>
+      </div>
+    </section>
+    <!-- Service-->
+    <section id="services" class="bg-gradient services-section">
+      <div class="container">
+        <header class="text-center">
+          <h2 data-animate="fadeInDown" class="title">Services</h2>
+        </header>
+        <div class="row services text-center">
+          <div data-animate="fadeInUp" class="col-lg-4">
+            <div class="icon"><i class="fa fa-search"></i></div>
+            <h3 class="heading mb-3 text-400">Consulting</h3>
+            <p class="text-left description">On on produce colonel pointed. Just four sold need over how any. In to september suspicion determine he prevailed admitting. On adapted an as affixed limited on. Giving cousin warmly things no spring mr be abroad. Relation breeding be as repeated strictly followed margaret. One gravity son brought shyness waiting regular led ham.</p>
+          </div>
+          <div data-animate="fadeInUp" class="col-lg-4">
+            <div class="icon"><i class="fa fa-html5"></i></div>
+            <h3 class="heading mb-3 text-400">HTML coding</h3>
+            <p class="text-left description">Manor we shall merit by chief wound no or would. Oh towards between subject passage sending mention or it. Sight happy do burst fruit to woody begin at. Assurance perpetual he in oh determine as.</p>
+          </div>
+          <div data-animate="fadeInUp" class="col-lg-4">
+            <div class="icon"><i class="fa fa-tachometer"></i></div>
+            <h3 class="heading mb-3 text-400">PHP webdelopment</h3>
+            <p class="text-left description">Rooms oh fully taken by worse do. Points afraid but may end law lasted. Was out laughter raptures returned outweigh. Luckily cheered colonel me do we attacks on highest enabled. Tried law yet style child. Bore of true of no be deal.</p>
+          </div>
+        </div>
+        <hr data-animate="fadeInUp">
+        <div data-animate="fadeInUp" class="text-center">
+          <p class="lead">Would you like to know more or just discuss something?</p>
+          <p><a href="#contact" class="btn btn-outline-light link-scroll">Contact me</a></p>
+        </div>
+      </div>
+    </section>
+
+
+
+    <footer class="main-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 text-center text-lg-left">
+            <p class="social"><a href="https://github.com/kyle-hassett" target="_blank" data-wow-delay="0.2s" class="external github wow fadeInUp"><i class="fa fa-github"></i></a><a href="https://www.linkedin.com/in/kyle-hassett-/" target="_blank" data-wow-delay="0.2s" class="external linkedin wow fadeInUp"><i class="fa fa-linkedin"></i></a></p>
+          </div>
+          <!-- /.6-->
+          <div class="col-md-6 text-center text-lg-right mt-4 mt-lg-0">
+            <p>© 2018 Kyle Hassett. All rights reserved.</p>
+          </div>
+          <div class="col-12 mt-4">
+            <p class="template-bootstrapious">Designed by <a href="https://www.bootstrapious.com">Bootstrapious</a>
+              <!-- Please do not remove the backlink to us unless you support further theme's development at https://bootstrapious.com/donate. It is part of the license conditions. Thank you for understanding :)-->
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
 
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/popper.js/umd/popper.min.js"> </script>
@@ -42,5 +196,4 @@
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"></script>
     <script src="js/front.js"></script>
   </body>
-  
 </html>

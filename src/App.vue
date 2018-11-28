@@ -20,14 +20,6 @@
     </nav>
   </header>
 
-  <section id="intro" style="background: url(img/buddha2.jpg) center center no-repeat; background-size: cover;" class="intro-section pb-2">
-    <div class="container text-center">
-      <div data-animate="fadeInDown" class="logo"><img class="selfie" src= "img/selfie.jpg" width=300px></div>
-      <h1 data-animate="fadeInDown" class="text-shadow mb-5">Kyle Hassett</h1>
-      <p data-animate="slideInUp" class="h3 text-shadow text-400">Writer of Words and Code</p>
-    </div>
-  </section>
-
 
   <router-view/>
 
